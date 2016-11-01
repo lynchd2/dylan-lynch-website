@@ -1,0 +1,279 @@
+body {
+  background-color:#D3D3D3;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+/**
+Homepage Page
+**/
+
+.navbar-slider:hover .slider {
+  width:100%;
+}
+
+.slider {
+  position: absolute;
+  height: 2px;
+  background-color: rgb(116, 255, 81);
+  width: 0%;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+.name-container {
+  margin-top:-20px;
+}
+.brackets-name {
+  font-size:3.5em;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.dylan-lynch {
+  font-size:3.5em;
+  letter-spacing:-3px;
+  cursor: pointer;
+}
+
+
+.brackets-occupation {
+  font-size:1.2em;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.web-dev {
+  margin-right:-5px;
+  letter-spacing:5px;
+  font-size:1.2em;
+  cursor: pointer;
+}
+
+.name-occupation-hovered{
+  opacity: 1;
+  -webkit-transition: opacity .25s ease-in-out .0s;
+  transition: opacity .25s ease-in-out .0s;
+}
+
+.linkedin-black {
+  content:url("../img/portfolio/thumbnails/linkedin.png");
+  margin-left:0px;
+  margin-top:20px;
+  height:80px;
+}
+
+.linkedin-black:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%); 
+}
+
+.github-black {
+  content:url(https://raw.githubusercontent.com/donaldali/donaldali.github.io/master/assets/images/icons/GitHub/black-64.png);
+  width:80px;
+  height:80px;
+  margin:0 auto;
+  border-radius:40px;
+  margin-right:15px;
+}
+
+.github-white {
+  content:url(https://raw.githubusercontent.com/donaldali/donaldali.github.io/master/assets/images/icons/GitHub/white-64.png);
+  width:80px;
+  height:80px;
+  margin:0 auto;
+  border-radius:40px;
+  margin-right:15px;
+}
+
+.mail-black {
+  content:url("../img/portfolio/fullsize/mail-black.png");
+  margin-left:0px;
+  margin-top:20px;
+  height:80px;
+}
+
+.medium-black {
+  content:url("../img/portfolio/thumbnails/medium.png");
+  margin-left:0px;
+  margin-top:20px;
+  height:80px;
+}
+
+.medium-black:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.mail-black:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.resume-black {
+  content:url("../img/portfolio/fullsize/resume-icon.png");
+  margin-left:0px;
+  margin-top:20px;
+  height:80px;
+}
+.resume-black:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.learn-more {
+  margin-top:50px;
+  position:relative;
+  background-color: rgb(116, 255, 81);
+}
+
+.profile-head {
+  border-radius:50px;
+  height:110px;
+  width:100px;
+}
+
+.github-demo{
+  margin-top:50px;
+}
+
+.project-links {
+  font-size:20px;
+  color:white;
+}
+
+.project-links:hover {
+  text-decoration: none;
+  color:white;
+}
+
+/**
+About Page
+**/
+
+.terminal-header {
+  margin-top:20px;
+  color:white;
+  font-size:20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px; 
+  height:30px;
+  width:97%;
+  background-color:grey;
+  margin-left:20px;
+}
+
+#about {
+  width:97%;
+  margin-left:20px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px; 
+}
+.sinatra-icon {
+  width:100px;
+  height:100px;
+}
+
+.ruby-icon {
+  width:90px;
+  height:90px;
+}
+
+.angular-icon {
+  width:90px;
+  height:90px;
+}
+
+.javascript-icon {
+  width:90px;
+  height:90px;
+}
+
+.bootstrap-icon {
+  width:90px;
+  height:90px;
+}
+
+.jquery-icon {
+  width:90px;
+  height:90px;
+}
+
+.heroku-icon {
+  width:90px;
+  height:90px; 
+}
+
+.git-icon {
+  width:90px;
+  height:90px;
+}
+
+#about {
+  background-color:black;
+}
+
+.dylan-about {
+  color: rgb(116, 255, 81);
+}
+
+/**
+Projects Page
+**/
+
+.stock-picture {
+  height:345px;
+}
+
+.kithub-picture {
+  height:398px;
+}
+
+
+
+@media only screen and (max-width: 2000px) {
+    .brackets-name {
+      font-size: 6em; 
+    }
+    .dylan-lynch {
+      font-size:6em;
+    }
+}
+@media only screen and (max-width: 1000px) { 
+    .brackets-name {
+        font-size: 4.5em; 
+    }
+    .dylan-lynch {
+      font-size:4.5em;
+    }
+}
+@media only screen and (max-width: 500px) { 
+    .brackets-name {
+        font-size: 3.2em; 
+    }
+    .dylan-lynch {
+      font-size:3.2em;
+    }
+}
