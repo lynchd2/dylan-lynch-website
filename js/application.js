@@ -1,5 +1,3 @@
-var $ = jQuery;
-
 $(document).ready(function(){
 
 $(".dylan-lynch").hover(function(){
